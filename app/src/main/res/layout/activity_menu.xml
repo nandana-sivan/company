@@ -1,0 +1,27 @@
+<LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#b2bec3"
+        android:orientation="vertical"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD EMPLOYEE"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/but2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEARCH EMPLOYEE"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/but3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGOUT"
+            android:textStyle="bold"/>
+
+
+</LinearLayout>
